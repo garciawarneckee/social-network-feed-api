@@ -1,0 +1,25 @@
+{
+  "name": "social-network-feed",
+  "version": "1.0.0",
+  "description": "Multi Social Network board",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm test",
+    "start": " npm run build && node ./dist/index.js"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "Esteban Garcia Warnecke <garciawarneckee@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "typescript-eslint-parser": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "typescript": "^2.8.1"
+  }
+}
