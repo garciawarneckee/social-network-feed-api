@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "npm test",
+    "dev": "tsc-watch --outDir ./dist --onSuccess 'node ./dist/index.js'",
     "start": " npm run build && node ./dist/index.js"
   },
   "keywords": [
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.11.1",
+    "tsc-watch": "^1.0.19",
     "typescript": "^2.8.1"
   }
 }
